@@ -15,7 +15,7 @@ My goal of studying at rs shool school is to become a frontend developer. I am a
 ## Skills
 
 - HTML
-- CSS
+- CSS/SCSS
 - JavaScript
 - Figma
 - Devtools
