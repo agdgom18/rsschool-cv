@@ -1,13 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>CV#2. HTML, CSS & Git Basics</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Giorgi Agdgomelashvili</title>
+    <link rel="icon" href="/img/icons8-червы-64.png" sizes="64x64">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Merriweather&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header class="header">
+      <nav class="nav">
+        <h2 class="logo">Port<span class="red-text">folio</span></h2>
+        <ul class="menu-list">
+          <li class="menu-items"><a href="#">Home</a></li>
+          <li class="menu-items"><a href="#">About me</a></li>
+          <li class="menu-items"><a href="#">Skills</a></li>
+          <li class="menu-items"><a href="#">Education</a></li>
+          <li class="menu-items"><a href="#">Contacts</a></li>
+        </ul>
+        <button class="btn-hire" type="submit">Hire me</button>
+      </nav>
+      <div class="my-name">
+        <h4>Hell0, my name is</h4>
+        <h1>Giorgi <span class="red-text">Agdgomelashvili</span></h1>
+        <h3>I'm a Junior Web Developer</h3>
+        <div class="news-letter">
+          <form action="#">
+            <input type="email" name="email" id="mail" placeholder="Enter your Email">
+            <input type="submit" name="submit" value="Lets Start">
+          </form>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about-me">
+        <div class="container">
+          <img src="/img/me-pexels.jpg" alt="me">
+          <div class="about-text">
+            <h2>About me</h2>
+            <h5>Delevoper and Designer</h5>
+            <p>
+              My goal of studying at rs shool school is to become a frontend developer. I am a goal-oriented person and diligent, I think this will
+              help me a lot in achieving my goal. I like to write code and learn new technologies, solve algorithmic problems.
+            </p>
+            <h4>My skills</h4>
+            <ul class="skills">
+              <li> HTML5</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+
+
+            </ul>
+            <button type="submit">Lets Talk</button>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="title">
+          <h2>Service</h2>
+        </div>
+        <div class="box">
+          <div class="card">
+            <img class="card-icon" src="/img/vector-3.svg" alt="bars-solid">
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>
+                Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as
+                possible.
+              </p>
+
+              <p style="text-align: center">
+                <a class="btn-read" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-icon" src="/img/vector-2.svg" alt="bars-solid">
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>
+                Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as
+                possible.
+              </p>
+
+              <p style="text-align: center">
+                <a class="btn-read" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-icon" src="/img/vector-1.svg" alt="bars-solid">
+            <h5>Web Development</h5>
+            <div class="pra">
+              <p>
+                Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as
+                possible.
+              </p>
+
+              <p style="text-align: center">
+                <a class="btn-read" href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-me">
+        <div class="contact">
+          <h4>Let Me Get You A Beautiful Website.</h4>
+          <button class="btn-contact" type="submit">Hire me</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="social-text">
+        <p class="last-name">Giorgi Agdgomelashvili</p>
+        <p class="info">For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+      </div>
+      <ul class="social-icon-list">
+        <li class="social-icons">
+          <a href="#"> <img src="/img/facebook.svg" alt=""> </a>
+        </li>
+        <li class="social-icons">
+          <a href="#"> <img src="/img/linkedin-in.svg" alt=""> </a>
+        </li>
+        <li class="social-icons">
+          <a href="#"> <img src="/img/twitter.svg" alt=""> </a>
+        </li>
+        <li class="social-icons">
+          <a href="https://github.com/agdgom18" target="_blank"> <img src="/img/github1.svg" alt="githublogo"> </a>
+        </li>
+      </ul>
+      <p class="about-site">This site was created as part of the <a class="rs" href="https://rs.school/js/" target="_blank">Rolling Scopes school </a>2022 year</p>
+      <a href="https://rs.school/js/" target="_blank"><img class="rs-school" src="/img/rs_school_js.svg" alt=""></a>
+      <p class="copyright">Copyright By Giorgi Agdgomelashvili 2022 year.</p>
+    </footer>
   </body>
 </html>
