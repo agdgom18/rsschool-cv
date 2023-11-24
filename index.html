@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Agdgom</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <p>Agdgom</p>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Skills</a></li>
+            <li class="menu-item"><a href="#">Work</a></li>
+            <li class="menu-item"><a href="#">Education</a></li>
+            <li class="menu-item"><a href="#">Language</a></li>
+          </ul>
+          <ul class="socilial__link">
+            <li>
+              <a href="https://www.facebook.com/gio.agdgomelashvili.9" target="_blank"
+                ><img src="./assets/img/social__icons/Facebook_black.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/agdgom18" target="_blank"><img src="./assets/img/social__icons/Github_black.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/gio.agdgomelashvili.9" target="_blank"
+                ><img src="./assets/img/social__icons/LinkedIN_black.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__desc">
+              <p class="hero__text">Hello, I’m Giorgi,</p>
+              <h1>Frontend-Developer</h1>
+              <p class="hero__text">based in Georgia.</p>
+              <button class="btn bnt__resume" type="submit">Resume</button>
+            </div>
+            <div class="hero__img">
+              <img src="./assets/img/avatar.png" alt="profile__image" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="title">about.</h2>
+          <p class="text__desc">
+            My goal of studying at rs shool school is to become a frontend developer. I am a goal-oriented person and diligent, I think this will help
+            me a lot in achieving my goal. I like to write code and learn new technologies, solve algorithmic problems.
+          </p>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="container">
+          <h2 class="title">skills.</h2>
+          <ul class="skill__list">
+            <li class="skill__item">HTML5</li>
+            <li class="skill__item">CSS/SCSS</li>
+            <li class="skill__item">JavaScript</li>
+            <li class="skill__item">Gulp</li>
+            <li class="skill__item">Photoshop</li>
+            <li class="skill__item">Figma</li>
+          </ul>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+          <h2 class="title">works.</h2>
+          <div class="work__inner">
+            <div class="first__project">
+              <a href="https://agdgom18.github.io/Xiaomi-Himo-C26/" target="_blank"><img src="./assets/img/mywork__1.jpg" alt="bike" /></a>
+              <h3><a href="https://agdgom18.github.io/Xiaomi-Himo-C26/" target="_blank">Xiaomi Himo C26</a></h3>
+            </div>
+
+            <div class="first__project">
+              <a href="https://agdgom18.github.io/Xiaomi-Himo-C26/" target="_blank"><img src="./assets/img/mywork__2.jpg" alt="bike" /></a>
+              <h3><a href="https://agdgom-18-momentum.netlify.app/" target="_blank">Momentum</a></h3>
+            </div>
+          </div>
+          <p class="text__desc">My code examples</p>
+          <blockquote>
+            <pre>
+              <code>
+                function add(num1, num2) {
+                  num1 = num1.toString().split('').reverse();
+                  num2 = num2.toString().split('').reverse();
+                  let sumArr = Array(Math.max(num1.length, num2.length)).fill(0);
+                  sumArr = sumArr.map((item, idx) => +(num1[idx] || 0) + +(num2[idx] || 0));
+                  return +sumArr.reverse().join('');
+                }
+              </code>
+            </pre>
+          </blockquote>
+        </div>
+      </section>
+      <section class="education">
+        <div class="container">
+          <h2 class="title">education</h2>
+          <p class="text__desc">
+            for Third level Vocational Qualification of Customs Representative (trade Operational Specialist) awarded by LTD “Multi-profile Community
+            College Imedi” Tbilisi, Georgia.
+          </p>
+          <p class="text__desc">RS School. Курс JS/Frontend-разработка. Подготовительный этап.</p>
+        </div>
+      </section>
+      <section class="language">
+        <div class="container">
+          <h2 class="title">language.</h2>
+          <ul class="language-list">
+            <li class="language-item">English - intermediate(B1)</li>
+            <li class="language-item">Georgian - native speaker</li>
+            <li class="language-item">Russian - native speaker</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h2 class="title">contacts.</h2>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="https://github.com/agdgom18" target="_blank"><img src="./assets/img/social__icons/Github_black.svg" alt="github" />Github</a>
+          </li>
+          <li class="footer__menu-item">2023</li>
+          <li class="footer__menu-item">
+            <a href="https://rs.school/js/" target="_blank"><img src="./assets/img/social__icons/rs_school_js_1.svg" alt="Rs School" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
